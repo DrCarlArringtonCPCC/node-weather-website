@@ -132,9 +132,9 @@ app.get('*', (req, res) => {
 
 // add a function as an argument which can tell what happens when
 // the server is loaded
-app.listen(PORT, () =>{
-	console.log('Server is live on port '+PORT+'.');
-	console.log('Open your web browser and go to the following URL - localhost:'+PORT+'');
+app.listen(port, () =>{
+	console.log('Server is live on port '+port+'.');
+	console.log('Open your web browser and go to the following URL - localhost:'+port+'');
 	console.log('To exit, come back to Node.js command prompt and enter Ctrl+C');
 });
 
